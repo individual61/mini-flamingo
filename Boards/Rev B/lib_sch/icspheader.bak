@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ICSPHeader
+#
+DEF ICSPHeader J 0 40 Y Y 1 F N
+F0 "J" 200 100 50 H V C CNN
+F1 "ICSPHeader" 450 -300 50 H V C CNN
+F2 "" 250 -350 50 H I C CNN
+F3 "" 250 -350 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S 150 50 750 -250 1 1 10 f
+X MISO 1 0 0 150 R 50 50 1 1 P
+X VTG 2 900 0 150 L 50 50 1 1 P
+X SCK 3 0 -100 150 R 50 50 1 1 P
+X MOSI 4 900 -100 150 L 50 50 1 1 P
+X RST 5 0 -200 150 R 50 50 1 1 P
+X GND 6 900 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
