@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/durandal/Documents/Projects/Arduino/Mini Flamingo/mini-flamingo/Boards/Rev B/Mini Flamingo Rev A.sch</source>
+    <date>Sunday, January 21, 2018 'PMt' 02:28:11 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Mini Flamingo</title>
+        <company/>
+        <rev>A</rev>
+        <date>2017-12-28</date>
+        <source>Mini Flamingo Rev A.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATTINY85-20SU</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="atmel" part="ATTINY85-20SU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A452C23</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>APA102C</value>
+      <footprint>LEDs:LED_RGB_5050-6</footprint>
+      <libsource lib="apa102c" part="APA102C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A463D1A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Field4">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="R_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A499998</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Field4">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="R_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A49A0CB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Package Size">0603</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="C_Small_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A49BA0E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Package Size">0805</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="C_Small_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A49BCDB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Field4">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="R_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A49C261</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Power LED</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>file:///Users/durandal/Documents/Projects/KiCAD%20tutorials/ATTiny85%201%20pixel%20RGB/datasheets/Power%20LED/Osram-LS_L29K-G1J2-1-Z-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Package Size">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="LED_ALT_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4A524A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ISP_Header</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <fields>
+        <field name="PN">P/N</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="ISP_Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4A569D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Batt Conn</value>
+      <footprint>Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled</footprint>
+      <fields>
+        <field name="Part Number">S2B-PH-K-S</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="01x02_Connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4A618A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand</footprint>
+      <fields>
+        <field name="Voltage Rating">10V</field>
+        <field name="Package Size">XXXX</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="CP1_Small_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4A67A2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Package Size">0603</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="C_Small_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4A69CF</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Cycle</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <fields>
+        <field name="Part Number">B3F-1000</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="10-XX_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4AD1C4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Field4">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="R_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4AE429</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Up</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <fields>
+        <field name="Part Number">B3F-1000</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="10-XX_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4AE430</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Field4">0603</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="R_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4AE4CF</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Down</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <fields>
+        <field name="Part Number">B3F-1000</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="10-XX_vert"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4AE4D6</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Power Switch</value>
+      <footprint>MyFP_Switches:E-Switch_EG1390</footprint>
+      <fields>
+        <field name="Part Number">EG-1390-A</field>
+      </fields>
+      <libsource lib="Mini Flamingo Rev A-cache" part="SW_DPDT_x2_horiz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4B2CB7</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>APA102C Out</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4E908F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Mini Flamingo Rev A-cache" part="01x02_Connector">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">01x02_Connector</field>
+        <field name="Part Number">P/N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="10-XX_vert">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">10-XX_vert</field>
+        <field name="Footprint">switch-omron-B3F-10XX</field>
+        <field name="Part Number">P/N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S1" type="passive"/>
+        <pin num="3" name="P" type="passive"/>
+        <pin num="4" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="apa102c" part="APA102C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APA102C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DI" type="input"/>
+        <pin num="2" name="CI" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="CO" type="output"/>
+        <pin num="6" name="DO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATTINY25-20SU">
+      <aliases>
+        <alias>ATTINY45-20SU</alias>
+        <alias>ATTINY85-20SU</alias>
+      </aliases>
+      <description>SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire</description>
+      <docs>http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY25-20SU</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/dW/ADC0/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3(XTAL1/CLKI/~OC1B~/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="CP1_Small_vert">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small_vert</field>
+        <field name="Voltage Rating">Voltage</field>
+        <field name="Package Size">XXXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="C_Small_vert">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small_vert</field>
+        <field name="Package Size">XXXX</field>
+        <field name="Voltage Rating">Voltage</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="ISP_Header">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ISP_Header</field>
+        <field name="PN">P/N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VTG" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="LED_ALT_vert">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT_vert</field>
+        <field name="Package Size">XXXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="R_vert">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_vert</field>
+        <field name="Field4">XXXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mini Flamingo Rev A-cache" part="SW_DPDT_x2_horiz">
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2_horiz</field>
+        <field name="Part Number">P/N?</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="atmel">
+      <uri>/Library/Application Support/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="apa102c">
+      <uri>/Users/durandal/Documents/Projects/Arduino/Mini Flamingo/mini-flamingo/Boards/Rev B/lib_sch/apa102c.lib</uri>
+    </library>
+    <library logical="Mini Flamingo Rev A-cache">
+      <uri>/Users/durandal/Documents/Projects/Arduino/Mini Flamingo/mini-flamingo/Boards/Rev B/Mini Flamingo Rev A-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="S1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="S3" pin="4"/>
+      <node ref="S3" pin="3"/>
+      <node ref="S2" pin="4"/>
+      <node ref="S2" pin="3"/>
+      <node ref="S1" pin="4"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(SW1-Pad6)">
+      <node ref="SW1" pin="6"/>
+    </net>
+    <net code="5" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="J3" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="7" name="+BATT">
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="/DataOut">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="9" name="/ClockOut">
+      <node ref="U2" pin="5"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="/PIN6/SW1">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="11" name="/PIN2/SW2">
+      <node ref="S2" pin="2"/>
+      <node ref="S2" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="12" name="/PIN3/SW3">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="S3" pin="2"/>
+      <node ref="S3" pin="1"/>
+    </net>
+    <net code="13" name="/MOSI/WS2812Data">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="14" name="/SCK/WS2812Clock">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="2"/>
+    </net>
+  </nets>
+</export>
