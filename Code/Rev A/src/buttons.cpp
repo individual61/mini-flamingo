@@ -102,7 +102,7 @@ void checkButton3(void)
     timeNowButton3 = millis();
     if (timeNowButton3 - lastTimePressedButton3 > DEBOUNCEDELAY)
     {
-      button2PressAction();
+      button3PressAction();
       lastTimePressedButton3 = timeNowButton3;
     }
   }
